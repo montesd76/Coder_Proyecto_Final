@@ -3,9 +3,155 @@
     margin: 0;
     padding: 0;
     }
+    h1 {
+        color: white;
+        font-family: 'Passion One', sans-serif;
+        font-size: 50px;
+    }
+    
+    h2 {
+        color: rgb(33, 180, 28);
+        font-family: 'Passion One', Verdana, Geneva, Tahoma, sans-serif;
+        text-transform: capitalize;
+        text-align: left;
+        letter-spacing: 1px;
+    }
+    
+    .headerback {
+        background: linear-gradient(180deg, rgba(14, 1, 1, 1) 20%, rgba(67, 153, 13, 1) 99%) !important;
+    
+    
+    }
+    
+    .footerback {
+        background: linear-gradient(180deg, rgba(250, 239, 5, 1) 5%, rgba(247, 216, 5, 1) 29%, rgba(6, 6, 0, 1) 69%);
+        height: 150px !important;
+    }
+    
+    #logoheader {
+        height: 150px;
+        width: 130px;
+        float: left;
+        transition: transform 1s;
+    }
+    
+    #logoheader:hover {
+        transform: scale(1.1);
+        float: left;
+        transition-duration: 2s;
+    }
+    
+    .drop {
+        filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+    }
+    
+    .bi {
+        background-color: rgb(4, 219, 33);
+    }
+    
+    body {
+        background-color: black !important;
+    
+    }
+    
+    .divnav {
+        align-content: flex-start !important;
+    }
+    
+    p {
+        color: cornsilk;
+    }
+    
+    header {
+        margin: 10Px;
+        align-content: space-around;
+        padding: 5px;
+        float: initial;
+        height: auto;
+    }
+    
+    nav {
+        margin: 2px;
+        padding: 10%;
+    }
+    
+    footer {
+        margin: 2px;
+        padding: 1x;
+        align-content: space-around;
+        float: initial;
+        height: auto !important;
+    }
+    
+    .caja {
+        margin: 5px;
+        padding: 2px;
+    }
+    
+    .textheader {
+        line-height: 25px;
+    }
+    
+    #logofooter {
+        height: 120px;
+        width: 140px;
+        float: right;
+        position: static;
+        bottom: 250px;
+    }
+    
+    .nav-item {
+        font-size: 18px;
+        font-weight: lighter;
+        color: lawngreen !important;
+        margin: 3px;
+    }
+    
+    .active {
+        font-size: 18px;
+        font-weight: bolder !important;
+        color: lawngreen !important;
+        font-weight: bold !important;
+    }
+    
+    
+    
+    .video {
+        margin: 5px;
+        padding: 5px;
+    }
+    
+    .sponsors {
+    
+        margin: 1px;
+        padding: 4px;
+    
+    
+    }
+    
+    .container_nav {
+        background-color: darkgray;
+    
+    }
+    
+    form {
+        width: 200px;
+        height: 205px;
+        padding: 16px;
+        border-radius: 10px;
+        margin: 10px;
+        background-color: rgb(26, 184, 5);
+    }
+    
+    #map {
+        padding: 10px 8px;
+        border-radius: 15px;
+        background-color: rgb(26, 184, 5);
+        margin: 10px;
+    }
+    
+    #redessociales {
+        width: 70px;
+        height: 50px;
+    }
 
-
-body {
-background-color:chartreuse;
-
-} 
